@@ -9,7 +9,6 @@ import YearsStat from '@/components/YearsStat';
 import useActivities from '@/hooks/useActivities';
 import useSiteMetadata from '@/hooks/useSiteMetadata';
 import { IS_CHINESE } from '@/utils/const';
-import process from 'node:process';
 import {
   Activity,
   IViewState,
