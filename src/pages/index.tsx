@@ -192,8 +192,6 @@ const Index = () => {
     };
   }, [year]);
 
-  const isVercel = process.env.VERCEL === '1';
-
   return (
     <Layout>
       {/* <div className="w-full lg:w-1/4">
@@ -233,7 +231,7 @@ const Index = () => {
         )}
       </div>
       {/* Enable Audiences in Vercel Analytics: https://vercel.com/docs/concepts/analytics/audiences/quickstart */}
-      {isVercel && <Analytics /> }
+      {import.meta.env.VERCEL && <Analytics /> }
     </Layout>
   );
 };
