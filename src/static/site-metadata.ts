@@ -11,7 +11,7 @@ interface ISiteMetadataResult {
 }
 
 const data: ISiteMetadataResult = {
-  siteTitle: 'Workouts Map',
+  siteTitle: 'Workouts Map | 流动',
   siteUrl: 'https://workout.liudon.com',
   logo: 'https://liudon.com/avatar.png',
   description: 'Personal site and blog',
