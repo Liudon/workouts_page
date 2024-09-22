@@ -191,7 +191,7 @@ const Index = () => {
     };
   }, [year]);
 
-  const isVercel = process.env.VERCEL === '1';
+  const isVercel = import.meta.env.VITE_VERCEL === '1';
 
   return (
     <Layout>
