@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import process from 'node:process';
 import { Analytics } from '@vercel/analytics/react';
 import Layout from '@/components/Layout';
 import LocationStat from '@/components/LocationStat';
@@ -191,7 +192,7 @@ const Index = () => {
     };
   }, [year]);
 
-  const isVercel = import.meta.env.VITE_VERCEL === '1';
+  const isVercel = process.env.VERCEL === '1';
 
   return (
     <Layout>
