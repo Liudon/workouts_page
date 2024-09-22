@@ -12,7 +12,7 @@
       python run_page/db_updater.py
     ```
 
-# [Create a personal workouts home page](http://workouts.ben29.xyz)
+# [Create a personal workouts home page](http://workout.liudon.com)
 
 ![screenshot](https://user-images.githubusercontent.com/6956444/163125711-24d0ad99-490d-4c04-b89f-5b7fe776eb38.png)
 

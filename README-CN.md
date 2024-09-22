@@ -12,7 +12,7 @@
       python run_page/db_updater.py
     ```
 
-# [打造个人户外运动主页](http://workouts.ben29.xyz)
+# [打造个人户外运动主页](http://workout.liudon.com)
 
 ![screenshot](https://user-images.githubusercontent.com/6956444/163125711-24d0ad99-490d-4c04-b89f-5b7fe776eb38.png)
 
