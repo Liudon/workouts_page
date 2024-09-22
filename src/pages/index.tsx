@@ -8,7 +8,8 @@ import SVGStat from '@/components/SVGStat';
 import YearsStat from '@/components/YearsStat';
 import useActivities from '@/hooks/useActivities';
 import useSiteMetadata from '@/hooks/useSiteMetadata';
-import { IS_CHINESE,USE_VERCEL_ANALYTICS } from '@/utils/const';
+import { IS_CHINESE } from '@/utils/const';
+import process from 'node:process';
 import {
   Activity,
   IViewState,
@@ -191,6 +192,8 @@ const Index = () => {
     };
   }, [year]);
 
+  const isVercel = process.env.VERCEL === '1';
+
   return (
     <Layout>
       {/* <div className="w-full lg:w-1/4">
@@ -230,7 +233,7 @@ const Index = () => {
         )}
       </div>
       {/* Enable Audiences in Vercel Analytics: https://vercel.com/docs/concepts/analytics/audiences/quickstart */}
-      {if USE_VERCEL_ANALYTICS && <Analytics /> }
+      {isVercel && <Analytics /> }
     </Layout>
   );
 };
