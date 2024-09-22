@@ -4,6 +4,7 @@ export default {
   theme: {
     fontFamily: {
       sans: [
+        'JetBrainsMono',
         '-apple-system',
         'BlinkMacSystemFont',
         'Segoe UI',
