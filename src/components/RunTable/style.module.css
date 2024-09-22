@@ -25,7 +25,7 @@
 
   :is(thead) {
     color: rgb(204, 204, 204);
-    text-align: right;
+    text-align: center;
 
     :is(th) {
       padding: 0.5rem;
@@ -38,7 +38,7 @@
   :is(td) {
     padding: 0.5rem;
     border: 0;
-    text-align: right;
+    text-align: center;
 
     &:first-child {
       text-align: left;
