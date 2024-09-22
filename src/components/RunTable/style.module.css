@@ -21,7 +21,7 @@
 .runTable {
   width: 100%;
   font-variant: tabular-nums;
-  margin: 2rem 0 5rem 0;
+  margin: 2rem auto;
 
   :is(thead) {
     color: rgb(204, 204, 204);
