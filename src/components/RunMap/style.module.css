@@ -9,7 +9,7 @@
 .buttons {
   position: absolute;
   left: 0;
-  bottom: 85px;
+  top: 5px;
   right: 0;
   z-index: 100;
   display: flex;
