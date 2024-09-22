@@ -193,7 +193,7 @@ const Index = () => {
 
   return (
     <Layout>
-      <div className="w-full lg:w-1/4">
+      {/* <div className="w-full lg:w-1/4">
         <h1 className="my-12 text-5xl font-extrabold italic">
           <a href="/">{siteTitle}</a>
         </h1>
@@ -207,8 +207,8 @@ const Index = () => {
         ) : (
           <YearsStat year={year} onClick={changeYear} onClickTypeInYear={changeTypeInYear}/>
         )}
-      </div>
-      <div className="w-full lg:w-4/5">
+      </div> */}
+      <div className="w-full">
         <RunMap
           title={title}
           viewState={viewState}
