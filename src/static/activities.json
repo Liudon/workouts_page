@@ -366,5 +366,37 @@
 "elevation_gain": 6.6,
 "source": "strava",
 "streak": 5
+},
+{
+"run_id": 12519737524,
+"name": "\u6668\u95f4\u9a91\u884c",
+"distance": 565.9,
+"moving_time": "0:02:47",
+"type": "Ride",
+"start_date": "2024-09-28 01:24:13+00:00",
+"start_date_local": "2024-09-28 09:24:13",
+"location_country": "\u5efa\u6750\u57ce\u4e1c\u8def, \u6d77\u6dc0\u533a, \u5317\u4eac\u5e02, 100196, \u4e2d\u56fd",
+"summary_polyline": "ahosFgdgeURrD@fB`@jLDpBJ~BLvAHbBBvC@H",
+"average_heartrate": 98.7,
+"average_speed": 3.388,
+"elevation_gain": 0.0,
+"source": "strava",
+"streak": 6
+},
+{
+"run_id": 12521001958,
+"name": "\u6668\u95f4\u9a91\u884c",
+"distance": 1172.3,
+"moving_time": "0:05:28",
+"type": "Ride",
+"start_date": "2024-09-28 01:27:06+00:00",
+"start_date_local": "2024-09-28 09:27:06",
+"location_country": "\u5efa\u6750\u57ce\u4e1c\u8def, \u6d77\u6dc0\u533a, \u5317\u4eac\u5e02, 100196, \u4e2d\u56fd",
+"summary_polyline": "ydosFq{eeUeAzAc@HiAXmB`@KFQR?n@XhEG`@G@WCkAUoAMIEOSKq@cBoQi@}Ji@mPEWCEOGm@?",
+"average_heartrate": 102.6,
+"average_speed": 3.574,
+"elevation_gain": 0.0,
+"source": "strava",
+"streak": 6
 }
 ]
